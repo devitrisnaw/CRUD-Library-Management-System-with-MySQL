@@ -53,13 +53,13 @@ Runs in the terminal for managing books and lending transactions.
 Run the SQL file:
 ```bash
 mysql -u root -p perpustakaan < perpustakaan_data.sql
-
+```
 ### 2. Install Python libraries:
 pip install pymysql tabulate
 
-## 📝 Files Included
+📝 Files Included
 perpustakaan.sql → SQL script for database schema and dummy data
 main.py → Python script for terminal CRUD operations
 
-## 📃 License
+📃 License
 This project is created for learning purposes and is free to use and modify.
