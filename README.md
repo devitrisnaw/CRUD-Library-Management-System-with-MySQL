@@ -4,16 +4,33 @@ A simple **Python** and **MySQL** library management system.
 Runs in the terminal for managing books and lending transactions.
 
 ## 🚀 Features
-
-✅ Add new books  
-✅ View book list  
-✅ Search books  
-✅ Update book data  
-✅ Delete books  
-✅ Borrow books  
-✅ Return books  
-✅ View lending history  
-✅ View borrower data
+This application implements full CRUD operations for library management:
+---
+### ✅ Create
+- **Add New Book**  
+  Add new books into the library’s database, including book ID, title, author, category, and stock quantity.
+- **Borrow Book**  
+  Record a new borrowing transaction, linking a borrower with the book they borrow, along with borrowing and return dates. If the borrower does not exist, the app will create their record automatically.
+---
+### ✅ Read
+- **View Book List**  
+  Display all books in the database, including ID, title, author, category, and stock.
+- **Search Books**  
+  Search for books by title or author keyword.
+- **View Borrowing History**  
+  Display all borrowing transactions, showing who borrowed which books and the return dates.
+- **View Borrower Data**  
+  Display a list of all borrowers with their names and phone numbers.
+---
+### ✅ Update
+- **Update Book Data**  
+  Modify the details of an existing book, such as title, author, category, or stock.
+---
+### ✅ Delete
+- **Delete Book**  
+  Remove a book from the library database.
+- **Return Book**  
+  Process a book’s return, deleting the lending record and updating the book’s stock accordingly.
 ---
 ## 💾 Database Structure (MySQL)
 
@@ -56,6 +73,10 @@ mysql -u root -p perpustakaan < perpustakaan_data.sql
 ```
 ### 2. Install Python libraries:
 pip install pymysql tabulate
+
+### 3. Clone The Repository
+git clone https://github.com/devitrisnaw/CRUD-Library-Management-System-with-MySQL.git
+cd library-mysql-python
 
 ## 📝 Files Included
 perpustakaan.sql → SQL script for database schema and dummy data
