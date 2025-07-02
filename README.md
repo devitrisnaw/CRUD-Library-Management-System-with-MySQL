@@ -59,6 +59,7 @@ pip install pymysql tabulate
 
 ## 📝 Files Included
 perpustakaan.sql → SQL script for database schema and dummy data
+
 main.py → Python script for terminal CRUD operations
 
 ## 📃 License
