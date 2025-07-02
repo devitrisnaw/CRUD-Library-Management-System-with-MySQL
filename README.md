@@ -47,13 +47,13 @@ Runs in the terminal for managing books and lending transactions.
 | tanggal_pinjam     | DATE          | Borrowing date                   |
 | tanggal_kembali    | DATE          | Return due date                  |
 
----
 
 ## 📥 Installation
 ### 1. Import the Database
 Run the SQL file:
 ```bash
 mysql -u root -p perpustakaan < perpustakaan_data.sql
+
 ### 2. Install Python libraries:
 pip install pymysql tabulate
 
