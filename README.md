@@ -76,6 +76,7 @@ pip install pymysql tabulate
 
 ### 3. Clone The Repository
 git clone https://github.com/devitrisnaw/CRUD-Library-Management-System-with-MySQL.git
+
 cd library-mysql-python
 
 ## 📝 Files Included
